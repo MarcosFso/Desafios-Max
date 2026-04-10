@@ -1,0 +1,11 @@
+
+=== Relatório de Folha de Pagamento ===
+
+Nome: Marcela
+Tipo: clt
+Salário Bruto: R$ 5.00
+Desconto INSS: R$ 0.40
+Desconto IRRF: R$ 0.00
+Salário Líquido: R$ 4.60
+------------------------------
+Total pago pela empresa: R$ 4.60
