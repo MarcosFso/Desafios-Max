@@ -1,0 +1,18 @@
+
+=== Relatório de Folha de Pagamento ===
+
+Nome: Marcos
+Tipo: clt
+Salário Bruto: R$ 10000.00
+Desconto INSS: R$ 800.00
+Desconto IRRF: R$ 1000.00
+Salário Líquido: R$ 8200.00
+------------------------------
+Nome: Marcela
+Tipo: estagiario
+Salário Bruto: R$ 5000.00
+Desconto INSS: R$ 0.00
+Desconto IRRF: R$ 0.00
+Salário Líquido: R$ 5000.00
+------------------------------
+Total pago pela empresa: R$ 13200.00

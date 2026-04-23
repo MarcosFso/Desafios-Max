@@ -69,7 +69,7 @@ def main():
 
         elif op == "3":
             conteudo = gerar_relatorio(funcionarios)
-            sucesso = salvar_relatorio(conteudo, "docs/relatorio_folha.txt")
+            sucesso = salvar_relatorio(conteudo, "relatorio_folha.txt")
 
             if sucesso:
                 print("Relatório salvo com sucesso na pasta docs!")

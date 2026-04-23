@@ -21,9 +21,20 @@ def gerar_relatorio(funcionarios):
     return texto
 
 
+import os
+
 def salvar_relatorio(conteudo, nome_arquivo="relatorio_folha.txt"):
     try:
-        with open(nome_arquivo, "w", encoding="utf-8") as f:
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        
+        caminho_pasta = os.path.join(base_dir, "..", "docs")
+        
+        if not os.path.exists(caminho_pasta):
+            os.makedirs(caminho_pasta)
+
+        caminho_final = os.path.join(caminho_pasta, nome_arquivo)
+
+        with open(caminho_final, "w", encoding="utf-8") as f:
             f.write(conteudo)
         return True
     except Exception as e:
